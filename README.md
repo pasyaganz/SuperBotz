@@ -16,7 +16,8 @@ pkg install nodejs
 pkg install ffmpeg
 pkg install imagemagick
 pkg install libwebp
-git clone https://github.com/pasyaganz/NasaBotV.2
+git clone https://github.com/pasyaganz/SuperBotz
+cd SuperBotz
 node index
 ```
 
