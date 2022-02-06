@@ -1,9 +1,9 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://bit.ly/36cLg9x']
-global.channelYT = ['https://bit.ly/3hg3bm4'] 
-global.owner = ['62895320853387', '380944480179', '6282269595175', '628978319619']// Put your number here
-global.mods = ['62895320853387', '380944480179', '6282269595175', '628978319619'] // Want some help?
-global.partner = ['628978319619'] // Want some help?
+global.linkGC = ['https://chat.whatsapp.com/H3ON3Cc5tKfAzFGaP1M2y9', 'https://chat.whatsapp.com/C2BuY1h1QVJ2Tsm109Vk71']
+global.channelYT = ['https://youtube.com/channel/UC4xu6SZWhuPdpCeeZNeEFvQ'] 
+global.owner = ['62895334402456']// Put your number here
+global.mods = [] // Want some help?
+global.partner = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -23,19 +23,20 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'HIROZTWO',
+  'https://api.xteam.xyz': 'Pasya3D',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.xyz': 'apivinz',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
-  'https://api.lolhuman.xyz': 'HIRO' 
+  'https://api.lolhuman.xyz': 'dimasGans' 
 }
 
 // Sticker WM
-global.packname = 'Raku Gans'
-global.author = 'BakaBOTZ Is The Best'
+global.packname = 'Superbot'
+global.author = 'PasyaGanz'
+global.fla = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 
 global.multiplier = 69 // The higher, The harder levelup
 

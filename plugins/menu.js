@@ -40,7 +40,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const groupsIn = groups.filter(v => !v.read_only)
 let ZeroGans = './src/logo.png'
-let pepe = 'https://i.ibb.co/Q9Wj9vh/IMG-20210817-WA0001.jpg'
+let pepe = 'https://telegra.ph/file/b8d44e92f65c239a44576.jpg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 
   try {
@@ -342,11 +342,11 @@ Im *${conn.getName(conn.user.jid)}* And You Use Prefix *%p*
 text = text.replace(new RegExp(`%(${Object.keys(replace).join`|`})`, 'g'), (_, name) => ''+replace[name])
 
     conn.sendMessage(m.chat, '', 'conversation', { quoted: m, contextInfo: { externalAdReply :{
-mediaUrl: 'https://youtube.com/c/BotolBotZ',
+mediaUrl: 'https://youtu.be/FibbB48uDZc',
 mediaType: 2,
-title: 'List Menu Zero',
+title: 'List Menu Bot',
 body: '',
-thumbnailUrl: 'https://i.ibb.co/Q9Wj9vh/IMG-20210817-WA0001.jpg',
+thumbnailUrl: 'https://telegra.ph/file/b8d44e92f65c239a44576.jpg',
 }}) 
 handler.help = ['o']
 handler.tags = ['o']
