@@ -1,6 +1,0 @@
-/*
-Support channel ZEEONE OFC
-
-
-Yang jual sc ini anak haram
-*/
