@@ -2,7 +2,7 @@ let util = require('util')
 let simple = require('./lib/simple')
 let fetch = require('node-fetch')
 const uploadImage = require('./lib/uploadImage')
-let { MessageType, Presence } = require('@adiwajshing/baileys')
+let { MessageType } = require('@adiwajshing/baileys')
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(resolve, ms))
@@ -483,7 +483,6 @@ let settings = global.DATABASE.data.settings
       }
     } finally {
       //console.log(global.DATABASE._data.users[m.sender])
-      await this.updatePresence(m.chat, Presence.recording)
       let user, stats = global.DATABASE._data.stats
       if (m) {
         if (m.sender && (user = global.DATABASE._data.users[m.sender])) {
